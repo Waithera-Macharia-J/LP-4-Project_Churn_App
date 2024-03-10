@@ -11,10 +11,10 @@ st.set_page_config(
 st.title('Customer data from Vodafone')
 
 
-'''st.cache_resource(show_spinner='connecting to Database.....')
+st.cache_resource(show_spinner='connecting to Database.....')
 def initialize_connection():
     connection = pyodbc.connect(
-        "DRIVER={ODBC Driver 17 for SQL Server};SERVER="
+        "DRIVER={SQL Server};SERVER="
         +st.secrets['SERVER']
         +";DATABASE="
         +st.secrets['DATABASE']
@@ -26,10 +26,10 @@ def initialize_connection():
     
     return connection
 
-conn = initialize_connection()'''
+conn = initialize_connection()
 
 
-'''st.cache_data()
+st.cache_data()
 def db_query(query):
     with conn.cursor() as cur:
         cur.execute(query)
@@ -37,7 +37,7 @@ def db_query(query):
         
         df = pd.DataFrame.from_records(data=rows, columns=[ column[0] for column in cur.description])
         
-    return df'''
+    return df
 st.cache_data()
 def choose_all_features():
     query = "Select * from LP2_Telco_churn_first_3000"

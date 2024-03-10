@@ -1,3 +1,4 @@
+from winreg import QueryInfoKey
 import streamlit as st
 import pandas as pd
 import pyodbc
@@ -10,30 +11,30 @@ st.set_page_config(
     page_icon="📈"
 )
 
-#@st.cache_resource(show_spinner='connecting to Database.....')
-#def initialize_connection():
-    #connection = pyodbc.connect(
-      #  "DRIVER={SQL Server};SERVER="
-      #  + st.secrets['SERVER']
-      #  + ";DATABASE="
-     #   + st.secrets['DATABASE']
-     #   + ";UID="
-     #   + st.secrets['UID']
-    #    + ";PWD="
-   #     + st.secrets['PWD']
-   # )
-    #return connection
+@st.cache_resource(show_spinner='connecting to Database.....')
+def initialize_connection():
+    connection = pyodbc.connect(
+        "DRIVER={SQL Server};SERVER="
+        + st.secrets['SERVER']
+        + ";DATABASE="
+        + st.secrets['DATABASE']
+        + ";UID="
+        + st.secrets['UID']
+       + ";PWD="
+        + st.secrets['PWD']
+    )
+    return connection
 
-#conn = initialize_connection()
+conn = initialize_connection()
 
-# Function to execute SQL query and return DataFrame
-#@st.cache_data()
-#def query_database(query):
-    #with conn.cursor() as cur:
-       # cur.execute(query)
-       # rows = cur.fetchall()
-        #df = pd.DataFrame.from_records(data=rows, columns=[column[0] for column in cur.description])
-    #return df
+# Function to execute SQL QueryInfoKey and return DataFrame
+@st.cache_data()
+def query_database(query):
+    with conn.cursor() as cur:
+        cur.execute(query)
+        rows = cur.fetchall()
+        df = pd.DataFrame.from_records(data=rows, columns=[column[0] for column in cur.description])
+    return df
 
 # Function to load dataset from file
 def load_dataset(file_path):
