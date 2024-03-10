@@ -12,7 +12,7 @@ st.title('Customer data from Vodafone')
 
 
 st.cache_resource(show_spinner='connecting to Database.....')
-def initialize_connection():
+'''def initialize_connection():
     connection = pyodbc.connect(
         "DRIVER={ODBC Driver 17 for SQL Server};SERVER="
         +st.secrets['SERVER']
@@ -26,7 +26,7 @@ def initialize_connection():
     
     return connection
 
-conn = initialize_connection()
+conn = initialize_connection()'''
 
 
 st.cache_data()
