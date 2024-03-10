@@ -1,0 +1,49 @@
+gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Prediction time,Model Used
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,200000,2000000,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,200000,2000000,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Mailed check,20000,2000,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Mailed check,20000,2000,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,3,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Contract,Yes,Mailed check,20000,2000,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,3,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Contract,Yes,Mailed check,20000,2000,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-04,Decision Tree Model
+Male,Yes,No,No,4,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,200,30000,2024-03-04,Random Forest Model
+Male,Yes,No,No,4,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,200,30000,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,100,20000,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,100,20000,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,100,20000,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,100,20000,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,100,20000,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,100,20000,2024-03-04,Random Forest Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-04,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Contract,Yes,Electronic check,90,800,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Contract,Yes,Electronic check,90,800,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Contract,Yes,Electronic check,90,800,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Contract,Yes,Electronic check,90,800,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Contract,Yes,Electronic check,90,800,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Contract,Yes,Electronic check,90,800,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Contract,Yes,Electronic check,90,800,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Contract,Yes,Electronic check,0,0,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),90,3600,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),90,3600,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),90,3600,2024-03-05,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-09,Decision Tree Model
+Male,Yes,Yes,Yes,1,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Electronic check,1000,20000,2024-03-09,Random Forest Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-10,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-10,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-10,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-10,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-10,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-10,Decision Tree Model
+Male,Yes,Yes,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,0,2024-03-10,Decision Tree Model
+Male,No,No,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),0,0,2024-03-10,Random Forest Model
+Male,No,No,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),0,0,2024-03-10,Random Forest Model
