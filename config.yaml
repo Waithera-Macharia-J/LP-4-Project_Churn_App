@@ -1,0 +1,29 @@
+cookie:
+  expiry_days: 30
+  key: your_cookie_signature_key
+  name: your_cookie_name
+credentials:
+  usernames:
+    joyce:
+      email: jo.macharia@gmail.com
+      logged_in: true
+      name: JOYCE MACHARIA
+      password: $2b$12$Jj3D7SodlbGZCj1FIrrlPu/k0rUwvrW/9.z0m2SON2wgXGyJmE63G
+    jsmith:
+      email: jsmith@gmail.com
+      logged_in: true
+      name: John Smith
+      password: $2b$12$.W2wFcJdECWdYntIEqATOunNXMDlqDrfcW6JcjrY7eGCBDWpX003a
+    qochieng:
+      email: qochieng@yahoo.com
+      logged_in: false
+      name: Quintor
+      password: $2b$12$hcfs8U1/0qNEA59tY2qpj.vM/ghqTo/MccUcNpb82WFGN/n3BSkKm
+    rbriggs:
+      email: rbriggs@gmail.com
+      logged_in: false
+      name: Rebecca Briggs
+      password: $2b$12$9t0VTv6xeIkgBWnheIOzz.pu4iAVlUGImQqlmYHPqFzmjKiddJ9Z2
+preauthorized:
+  emails:
+  - melsby@gmail.com
