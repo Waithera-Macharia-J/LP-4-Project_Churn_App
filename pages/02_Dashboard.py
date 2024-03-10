@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Page title and icon
 st.set_page_config(
     page_title="Dashboard",
-    page_icon=":chart_with_upwards_trend:"
+    page_icon="📈"
 )
 
 st.cache_resource(show_spinner='connecting to Database.....')
